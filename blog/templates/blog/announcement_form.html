@@ -1,0 +1,21 @@
+{% extends "blog/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+    {% if user.is_staff %}<div class="content.section">
+        <form method="POST">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Blog Announcement</legend>
+                {{ form|crispy }}
+            </fieldset>
+            <div class="form-group">
+                <button class="btn btn-outline-info" type="submit">Post Announcement</button>
+                <a button class="btn btn-outline-secondary" href="{% url 'blog-home' %}">Cancel</button></a>
+            </div>
+        </form>
+    </div>
+    {% else %}
+        <h1>You're not supposed to be here!</h1>
+    {% endif %}
+{% endblock content %}

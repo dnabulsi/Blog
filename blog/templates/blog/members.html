@@ -1,0 +1,15 @@
+{% extends "blog/base.html" %}
+        
+{% block title %}
+    Home Page
+{% endblock %}
+
+{% block content %}
+    <h1 class="mb-3">Total Users: {{ count }}</h1>    
+{% for user in users %}
+        <article class="media content-section">
+            <img class="container-custom rounded-circle mr-5" width="85" height="85" src="{{ user.profile.image.url }}">
+            <a class="container-custom mr-2 member-name-big" href="{% url 'user-posts' user.username %}">{{ user }}</a>
+        </article> 
+    {% endfor %}
+{% endblock %}

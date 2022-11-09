@@ -1,0 +1,163 @@
+body {
+    background: #fafafa;
+    color: #462e4e;
+    margin-top: 5rem;
+  }
+  
+h1, h2, h3, h4, h5, h6 {
+    color: #462e4e;
+  }
+  
+ul {
+    margin: 0;
+  }
+  
+.site-header .navbar-nav .nav-link {
+    color: #cbd5db;
+  }
+  
+.site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  }
+  
+.site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+  
+.content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  
+.article-title {
+    color: rgb(10, 115, 63);
+  }
+  
+a.article-title:hover {
+    color: rgb(7, 72, 40);
+    text-decoration: none;
+  }
+  
+.article-content {
+    white-space: pre-line;
+  }
+  
+.article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+  }
+  
+.article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3;
+    color:gold;
+  }
+  
+.article-metadata a:hover {
+    color: goldenrod;
+    text-decoration: none;
+  }
+  
+.article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  
+.account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+  
+.account-heading {
+    font-size: 2.5rem;
+  }
+
+.button-outline:hover{
+    color:#fff;
+    background-color:#8E5F87;
+  }
+
+.button-outline {
+    background: white;
+    padding: 8px 13px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: #8E5F87;
+    color: #8E5F87;
+}
+
+.button {
+  background: #8E5F87;
+  padding: 8px 13px;
+  text-align: center;
+  border-radius: 5px;
+  border-color: #8E5F87;
+  color: white;
+}
+
+.green-text {
+  color: rgb(10, 115, 63);
+}
+
+.member-name {
+  color: rgb(230, 195, 0);
+  font-weight: bold;
+}
+
+.member-name:hover {
+  color: goldenrod;
+  text-decoration: none;
+}
+
+.member-name-big {
+  color: rgb(230, 195, 0);
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.member-name-big:hover {
+  color: goldenrod;
+  text-decoration: none;
+}
+
+.navbar-link {
+  color:white;
+  display:block;
+  padding:.5rem 1rem;
+}
+
+.navbar-link:hover {
+  text-decoration:none;
+  color:white;
+  font-weight: bold;
+}
+
+.navbar-link.active {
+  color:#ffffff;
+  background-color:#fff;
+  border-color:#dee2e6 #dee2e6 #fff}
+
+.navibar-brand {
+  display:inline-block;
+  padding-top:.3125rem;
+  padding-bottom:.3125rem;
+  margin-right:1rem;
+  font-size:25px;
+  line-height:inherit;
+  white-space:nowrap;
+  font-weight: bold;
+}
+
+.list-group-item-light:hover {
+  text-decoration: none;
+  color:#818182;
+  font-weight: bold;
+}
