@@ -30,4 +30,4 @@ class Announcement(models.Model):
         return (f'{self.title} by {self.author}')
 
     def get_absolute_url(self):
-        return reverse('post-detail', kwargs={'pk': self.pk})
+        return reverse('announcement-detail', kwargs={'pk': self.pk})
